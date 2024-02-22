@@ -1,0 +1,49 @@
+{
+  "comunidades": [
+    {
+      "id": 1,
+      "nombre": "Comunidad 1",
+      "descripcion": "Comunidad número 1"
+    },
+    {
+      "id": 2,
+      "nombre": "Comunidad 2",
+      "descripcion": "Comunidad número 2"
+    }
+  ],
+  "publicaciones": [
+    {
+      "id": 1,
+      "id_comunidad": 1,
+      "titulo": "Publicación 1",
+      "texto": "Publicación número 1",
+      "autor": "autor 1",
+      "comentarios": [1, 2]
+    },
+    {
+      "id": 2,
+      "id_comunidad": 1,
+      "titulo": "Publicación 2",
+      "texto": "Publicación número 2",
+      "autor": "autor 2",
+      "comentarios": [3]
+    }
+  ],
+  "comentarios": [
+    {
+      "id" : 1,
+      "autor" : "autor 1",
+      "texto" : "comentario 1"
+    },
+    {
+      "id" : 2,
+      "autor" : "autor 2",
+      "texto" : "comentario 2"
+    },
+    {
+      "id" : 3,
+      "autor" : "autor 1",
+      "texto" : "comentario 3"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "blogsolidarian",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start_db": "json-server --watch db/blog.json",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.4.5",
+    "express": "~4.16.1",
+    "fs": "^0.0.1-security",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "https": "^1.0.0",
+    "json-server": "^1.0.0-alpha.23",
+    "morgan": "~1.9.1"
+  }
+}
